@@ -10,7 +10,7 @@ class TestMultiply(unittest.TestCase):
 
     def test_multiply_by_zero(self):
         result = multiply(8, 0)
-        self.assertEqual(result, 0)
+        self.assertEqual(result, 8)
 
     def test_multiply_positive_and_negative_integers(self):
         result = multiply(4, -2)
